@@ -61,8 +61,8 @@
     }
   },
   "order": [
-    "featured_products",
     "image_banner",
+    "featured_products",
     "image_text"
   ]
 }
