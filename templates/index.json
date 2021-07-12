@@ -47,11 +47,18 @@
         "text",
         "button"
       ]
+    },
+    "random_section":{
+      "type": "random-section",
+      "settings":{
+        "title": "Random Section"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "image_text"
+    "image_text",
+    "random_section"
   ]
 }
