@@ -1,6 +1,8 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 <h1>{{ section.settings.title }}</h1>
-
+{%- for block in section.blocks -%}
+  <img src={{ block.settings.image }} height="200" width="200" />
+{%- endfor -%}
 {% schema %}
 {
     "name": "Wada Lullahh",
