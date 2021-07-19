@@ -111,9 +111,9 @@
         "title": "Random Section"
       }
     },
-    "test_section":{
+    "test_section": {
       "type": "test-section",
-      "settings":{
+      "settings": {
         "title": "Random Section"
       }
     }
