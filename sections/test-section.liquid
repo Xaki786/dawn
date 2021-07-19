@@ -1,16 +1,17 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
-<h1>{{ section.settings.title }}</h1>
+<h1>{{ section.settings.text_title }}</h1>
 
 {% schema %}
 {
     "name": "Test Section",
     "tag": "section",
     "class": "slideshow",
-    "settings": [
+    "settings": [      
       {
         "type": "text",
-        "id": "title",
-        "label": "Title"
+        "id": "text_title",
+        "label": "Heading",
+        "default": "Quick links"
       }
     ]    
 }
