@@ -62,12 +62,19 @@
       "settings":{
         "title": "Random Section"
       }
+    },
+    "test_section":{
+      "type": "test-section",
+      "settings":{
+        "title": "Random Section"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
     "image_text",
-    "random_section"
+    "random_section",
+    "test_section"
   ]
 }

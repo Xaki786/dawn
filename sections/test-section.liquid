@@ -1,0 +1,24 @@
+{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
+<h1>New Section Second</h1>
+
+{% schema %}
+{
+    "name": "Test Section",
+    "tag": "section",
+    "class": "slideshow",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      }
+    ],
+    "blocks": [
+       {
+         "name": "Sub Title",
+         "type": "text",
+         "settings": []
+       }
+     ]
+}
+{% endschema %}
