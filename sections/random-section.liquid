@@ -1,12 +1,17 @@
+{% stylesheet %}
+.slideshow-wrapper {
+  .single-image{
+		margin-right: 10px;
+	}
+}
+{% endstylesheet %}
 <div class="page-width page-margin">
 <h1>{{ section.settings.title }}</h1>
 {%- for block in section.blocks -%}
-  <img src={{ block.settings.image | image_url }} height="200" width="200" loading="lazy" />
+  <img src={{ block.settings.image | image_url }} class="single-image" height="200" width="200" loading="lazy" />
 {%- endfor -%}
 </div>
-{% javascript %}
-alert("Welcome to Javascript");
-{% endjavascript %}
+
 {% schema %}
 {
     "name": "Wada Lullahh",
