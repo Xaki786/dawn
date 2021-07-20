@@ -1,4 +1,4 @@
-<div class="page-widt page-margin">
+<div class="page-width page-margin">
 <h1>{{ section.settings.text_title }}</h1>
 </div>
 {% schema %}
@@ -7,12 +7,32 @@
     "tag": "section",
     "class": "slideshow",
     "settings": [      
-      {
-        "type": "text",
-        "id": "text_title",
-        "label": "Heading",
-        "default": "Quick links"
-      }
-    ]    
+    ],
+	"blocks": [
+		{
+         "name": "Image",
+         "type": "slide",
+         "settings": [
+           {
+             "type": "image_picker",
+             "id": "image",
+             "label": "Image"
+           }
+         ]
+     	},
+		{
+         "name": "Title",
+         "type": "text",
+         "settings": [
+           {
+             "type": "text",
+             "id": "text_title",
+             "label": "Image",
+			 "label": "Heading",
+             "default": "Quick links"
+           }
+         ]
+     	}
+	]
 }
 {% endschema %}
