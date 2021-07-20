@@ -1,17 +1,19 @@
 <div class="page-width page-margin">
 <h1>{{ section.settings.text_title }}</h1>
   <div class="flex-parent">
-  {% for block in section.blocks %}  
+  {% for block in section.blocks %} 
+    <div>
     <div>{{ block.settings.subtitle }}</div>
     <div>
     	<img src={{ block.settings.image | image_url }} width="200" height="200" alt="No Problem" />
+    </div>
     </div>  
   {% endfor %}
   </div>
 </div>
 {% stylesheet %}
 .flex-parent {
-   display: "flex",
+   display: flex;
    flex-wrap: wrap;
 }
 {% endstylesheet %}
