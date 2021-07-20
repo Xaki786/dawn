@@ -1,15 +1,14 @@
-{% stylesheet %}
-.single-image{
-		margin-right: 10px;
-	}
-{% endstylesheet %}
 <div class="page-width page-margin">
 <h1>{{ section.settings.title }}</h1>
 {%- for block in section.blocks -%}
   <img src={{ block.settings.image | image_url }} class="single-image" height="200" width="200" loading="lazy" />
 {%- endfor -%}
 </div>
-
+{% stylesheet %}
+.single-image{
+		margin-right: 10px;
+	}
+{% endstylesheet %}
 {% schema %}
 {
     "name": "Wada Lullahh",
