@@ -113,8 +113,44 @@
     },
     "test_section": {
       "type": "test-section",
+      "blocks": {
+        "db444ac0-387e-4dce-bc18-879bea208966": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/view-from-above-as-person-sits-at-white-desktop.jpg",
+            "subtitle": "Block Title"
+          }
+        },
+        "0dec50d5-f006-408f-bf89-c4f8897ba190": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/teapot-against-a-lit-pink-background.jpg",
+            "subtitle": "Block Title"
+          }
+        },
+        "f77dcdf2-2251-4fdc-9ccf-99ebf1b1fb7b": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/man-adjusts-his-shirt-cuffs-below-watch.jpg",
+            "subtitle": "Block Title"
+          }
+        },
+        "e8271f7b-2034-446e-a978-4b879d4efc0b": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/woman-and-two-children-stand-in-a-gold-colored-field.jpg",
+            "subtitle": "Block Title"
+          }
+        }
+      },
+      "block_order": [
+        "db444ac0-387e-4dce-bc18-879bea208966",
+        "0dec50d5-f006-408f-bf89-c4f8897ba190",
+        "f77dcdf2-2251-4fdc-9ccf-99ebf1b1fb7b",
+        "e8271f7b-2034-446e-a978-4b879d4efc0b"
+      ],
       "settings": {
-        "title": "Random Section"
+        "text_title": "Quick links"
       }
     }
   },
