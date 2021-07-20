@@ -4,7 +4,7 @@
   <div>
     <div>{{ block.subtitle }}</div>
     <div>
-    	<img src={{ block.iamge | image_url }} width="200" height="200" alt="No Problem" />
+    	<img src={{ block.image | image_url }} width="200" height="200" alt="No Problem" />
     </div>
   </div>
   {% endfor %}
@@ -43,7 +43,7 @@
              "id": "subtitle",
              "label": "Image",
 			 "label": "Heading",
-             "default": "Quick links"
+             "default": "Block Title"
            }
          ]
      	}
